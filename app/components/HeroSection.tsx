@@ -15,7 +15,7 @@ const HeroSection = () => {
     };
 
     return (
-        <section className="w-full bg-pink-500 py-16 px-4">
+        <section className="w-full bg-[rgb(245,82,155)] py-16 px-4">
             <div className="max-w-3xl mx-auto text-center">
                 <h1 className="text-7xl font-bold text-white mb-24 font-myriad">
                     Flert <span className="text-yellow-300">:)</span>
@@ -46,7 +46,7 @@ const HeroSection = () => {
                     />
                     <button
                         type="submit"
-                        className="px-8 py-4 bg-purple-700 hover:bg-purple-800 text-white font-medium rounded-lg transition-colors duration-200 font-myriad"
+                        className="px-8 py-4 bg-[rgb(131,48,127)] hover:bg-[rgb(111,38,107)] text-white font-medium rounded-lg transition-colors duration-200 font-myriad"
                     >
                         Quero ser avisado
                     </button>

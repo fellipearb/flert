@@ -8,7 +8,7 @@ const FeatureCard = ({
     description: string;
 }) => {
     return (
-        <div className="bg-pink-400 rounded-2xl p-8 text-center hover:shadow-lg transition-shadow duration-200">
+        <div className="bg-[rgb(245,82,155)] rounded-2xl p-8 text-center hover:shadow-lg transition-shadow duration-200">
             <div className="text-5xl mb-4">{icon}</div>
             <h3 className="font-semibold text-xl mb-3 text-white font-myriad">
                 {title}
@@ -43,7 +43,7 @@ const Features = () => {
     ];
 
     return (
-        <section className="w-full bg-purple-700 py-24 px-4">
+        <section className="w-full bg-[#82317f] py-24 px-4">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl font-bold text-white text-center mb-16 font-myriad">
                     Como funciona
